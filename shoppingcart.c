@@ -12,6 +12,6 @@ int main()
     printf("enter the quantity of the item : ");
     scanf("%d",&quantity);
     total=quantity*price;
-    printf("u have bought %s in the quantity of %d and the total price is : %f ",item,quantity,total);
+    printf("u have bought %s in the quantity of %d and the total price is : %.2f ",item,quantity,total);
     return 0;
 }
