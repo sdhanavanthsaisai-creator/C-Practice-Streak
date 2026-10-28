@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 int main()
 {
@@ -7,6 +8,7 @@ int main()
     float total=0.0f;
     printf("enter the item name : ");
     fgets(item,sizeof(item),stdin);
+    item[strlen(item)-1]='\0';
     printf("what is the price of the item : ");
     scanf("%f",&price);
     printf("enter the quantity of the item : ");
